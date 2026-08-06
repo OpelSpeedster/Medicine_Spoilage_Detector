@@ -1,23 +1,3 @@
----
-title: Drug Spoilage Detector
-emoji: 📊
-colorFrom: pink
-colorTo: blue
-sdk: gradio
-sdk_version: 6.17.3
-python_version: '3.13'
-app_file: app.py
-pinned: false
-tags:
-  - track:backyard
-  - sponsor:openbmb
-  - sponsor:modal
-  - achievement:offgrid
-  - achievement:offbrand
-  - achievement:sharing
-  - achievement:fieldnotes
----
-
 # Drug Spoilage Detector
 
 Detects medicine spoilage from images of syrup bottles and drug packaging using **MiniCPM-V 2.6 INT4** (8B params, bitsandbytes quantized) served via Modal. Upload a photo, crop to the label area to reduce visual tokens, and get a full spoilage analysis.
