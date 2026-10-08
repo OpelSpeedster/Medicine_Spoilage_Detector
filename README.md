@@ -1,4 +1,4 @@
-# Medicine Spoilage Detector
+# Drug Spoilage Detector
 
 Detects medicine spoilage from images of syrup bottles and drug packaging using **MiniCPM-V 2.6 INT4** (8B params, bitsandbytes quantized) served via Modal. Upload a photo, crop to the label area to reduce visual tokens, and get a full spoilage analysis.
 
